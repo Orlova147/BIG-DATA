@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&display=swap');
+
+.f2 {
+  font-family: "Baskervville SC", serif;
+  font-weight: 400;
+  font-size: 70px;
+  font-style: normal;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+	margin: 0;
+	background-color: #b784a7; <!-- фон -->
+	color: #ff7e93;
+}
+
+a {
+	color: #4F2000;
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+hr {
+	color: #4F2000;
+	size: 20px;
+}
+
+.header {
+}
+
+.header_nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header_list{
+	display: flex;
+	gap: 30px;
+}
+
+.header_list a{
+	font-size: 20px;
+    font-family: "Bodoni Moda SC", serif;
+    font-weight: 400;
+    font-style: normal;
+	opacity: 0.6;
+
+	transition: opacity 0.4s;
+}
+
+.header_list a:hover{
+	opacity: 1;
+}
+
+.btn1{
+	margin-right: 90px;
+	font-size: 20px;
+    font-family: "Bodoni Moda SC", serif;
+    font-weight: 450;
+    font-style: normal;
+
+	width: 170px;
+	height: 50px;
+	background: #8a2be2; <!-- забронировать стол -->
+	border-radius: 20px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	transition: opacity 0.4s;
+}
+
+.welcome{
+
+}
+
+.welcome_title{
+  font-family: "Baskervville SC", serif;
+  font-weight: 600;
+  font-size: 35px;
+  font-style: italic;
+  margin: 50px;
+}
+
+.img_color{
+	background: #120f0d; 
+}
+
+.slider_line {
+	font-family: "Bona Nova SC", serif;
+	font-weight: 300;
+	font-size:25px;
+	font-style: italic;
+	margin: 50px;
+}
+
+
+.section_title{
+	font-family: "Bona Nova SC", serif;
+    font-weight: 400;
+    font-size: 40px;
+    font-style: normal;
+    margin: 100px;
+}
+
+.section_title_catalog{
+	font-family: "Bona Nova SC", serif;
+    font-weight: 400;
+    font-size: 40px;
+    font-style: normal;
+    margin-top: 100px;
+	margin-bottom: 50px;
+}
+
+.color_inf {
+	background-color: #8a2be2;<!-- history -->
+}
+
+.infomation_items{
+	display: flex;
+	font-family: "Baskervville SC", serif;
+	color: #120f0d;
+    font-weight: 300;
+    font-size: 30px;
+    font-style: normal;
+	align-items: center;
+	gap: 70px;
+	margin-right: 70px;
+	max-height: 467px;
+}
+
+.infomation_text {
+	font-family: "Bona Nova SC", serif;
+
+}
+
+.furn_item{
+	font-family: "Baskervville SC", serif;
+    font-weight: 400;
+    font-size: 32px;
+    font-style: normal;
+}
+
+.salad_title
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+.position_img{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.position_img figcaption{
+	margin: 25px;
+
+	font-family: "Baskervville SC", serif;
+    font-size: 25px;
+}
+
+.ch{
+	height: 299px;
+	width: 800px;
+	margin-bottom: 100px;
+	margin-top: 50px;
+}
+
+.img_item{
+	width: 100%;
+    height: 100%;
+    object-fit: contain;
+
+	border-radius: 20px;
+}
+
+.all_furn_img{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.all_titles{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 50px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+.picture{
+	height: 299px;
+	width: 800px;
+	margin-bottom: 100px;
+	margin-top: 50px;
+}
+
+footer{
+	height: 300px;
+
+	background-color: #8a2be2;
+	color: #c7c7c7;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer_nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+.footer_nav img{
+	margin-left: 150px;
+}
+
+.footer_list{
+	margin-left: 100px;
+}
+
+.footer_list a{
+	color: #c7c7c7;
+
+	font-size: 20px;
+    font-family: "Bona Nova SC", serif;
+    font-weight: 400;
+    font-style: normal;
+	opacity: 0.7;
+
+	transition: opacity 0.4s;
+}
+
+.footer_list h6{
+	color: #c7c7c7;
+
+	font-size: 30px;
+    font-family: "Bona Nova SC", serif;
+    font-weight: 400;
+    font-style: normal;
+	opacity: 1;
+
+	margin: 0px;
+	margin-bottom: 10px;
+}
+
+.footer_list a:hover{
+	opacity: 1;
+}
